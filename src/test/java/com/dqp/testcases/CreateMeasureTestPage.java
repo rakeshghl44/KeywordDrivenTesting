@@ -11,13 +11,13 @@ import org.testng.annotations.BeforeMethod;
 import org.openqa.selenium.JavascriptExecutor;
 import org.testng.annotations.AfterMethod;
 
-public class CreateMeasureTest extends TestBase{
+public class CreateMeasureTestPage extends TestBase{
 	
 	LoginPage loginpage;
 	HomePage homepage;
 	CreateMeasurePage createmeasurepage; 
 	
-	public CreateMeasureTest() {
+	public CreateMeasureTestPage() {
 		super();
 	}
 	    
