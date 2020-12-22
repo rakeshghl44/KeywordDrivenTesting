@@ -1,10 +1,10 @@
-package dqp.qa.pages;
+package com.dqp.pages;
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-import dqp.qa.base.TestBase;
+import com.dqp.base.TestBase;
 
 public class CreateMeasurePage extends TestBase{
 	

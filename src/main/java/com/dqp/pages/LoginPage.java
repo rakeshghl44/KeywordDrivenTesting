@@ -1,4 +1,4 @@
-package dqp.qa.pages;
+package com.dqp.pages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
@@ -7,7 +7,7 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import dqp.qa.base.TestBase;
+import com.dqp.base.TestBase;
 
 public class LoginPage extends TestBase {
 

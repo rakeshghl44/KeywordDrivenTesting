@@ -1,4 +1,4 @@
-package dqp.qa.testcases;
+package com.dqp.testcases;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;

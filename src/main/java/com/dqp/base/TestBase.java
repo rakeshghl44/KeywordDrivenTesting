@@ -1,4 +1,4 @@
-package dqp.qa.base;
+package com.dqp.base;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;

@@ -1,11 +1,9 @@
-package dqp.qa.testcases;
+package com.dqp.testcases;
 
 import org.testng.annotations.Test;
-
-import dqp.qa.base.TestBase;
-import dqp.qa.pages.HomePage;
-import dqp.qa.pages.LoginPage;
-
+import com.dqp.base.TestBase;
+import com.dqp.pages.HomePage;
+import com.dqp.pages.LoginPage;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.AfterMethod;
 
