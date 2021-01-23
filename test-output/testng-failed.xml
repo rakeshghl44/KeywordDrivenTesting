@@ -3,11 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="dqp.qa.testcases.General">
+      <class name="com.dqp.testcases.CreateMeasureTestPage">
         <methods>
-          <include name="generalSteps"/>
+          <include name="closeBrowser"/>
+          <include name="verifyMesureData"/>
+          <include name="setup"/>
         </methods>
-      </class> <!-- dqp.qa.testcases.General -->
+      </class> <!-- com.dqp.testcases.CreateMeasureTestPage -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -67,11 +67,11 @@ public class CreateMeasureTestPage extends TestBase{
 		 
 	 }
 	 
-	 @Test(priority = 1) 
+	 @Test(priority = 0) 
 	 public void verifyMesureData() throws InterruptedException { 
 		 
 		 
-		 Thread.sleep(10000);
+		 Thread.sleep(15000);
 		 
 		 createmeasurepage.validateMeasureTab();  Thread.sleep(7000);
 	 
