@@ -3,12 +3,12 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/x
   
   <modelVersion>4.0.0</modelVersion>
   <groupId>Framework</groupId>
-  <artifactId>DQP</artifactId>
+  <artifactId>PayBright</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   
   <packaging>jar</packaging>
 
-  <name>DQP</name>
+  <name>PayBright</name>
   <url>http://maven.apache.org</url>
   
    		<build>
@@ -24,8 +24,8 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/x
    <properties>
         <maven-compiler-plugin.version>3.8.1</maven-compiler-plugin.version>
         <assertj-core.version>3.10.0</assertj-core.version>
-        <source.version>1.7</source.version>
-        <target.version>1.7</target.version>
+        <source.version>1.8</source.version>
+        <target.version>1.8</target.version>
    </properties>
     
   <dependencies>
@@ -37,6 +37,11 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/x
 	    <version>3.8.1</version>
 	</dependency>
   
+  	<dependency>
+		<groupId>net.sourceforge.jexcelapi</groupId>
+		<artifactId>jxl</artifactId>
+		<version>2.6.12</version>
+	</dependency>
   
    <dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
@@ -51,26 +56,56 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/x
 	    <scope>test</scope>
 	</dependency>
 
-			<dependency>
-		    <groupId>org.apache.poi</groupId>
-		    <artifactId>poi</artifactId>
-		    <version>4.1.0</version>
+		
+		<!-- https://mvnrepository.com/artifact/org.apache.poi/poi -->
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi</artifactId>
+			<version>3.9</version>
 		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/commons-io/commons-io -->
+		<dependency>
+			<groupId>commons-io</groupId>
+			<artifactId>commons-io</artifactId>
+			<version>2.6</version>
+		</dependency>
+
+		
 		<dependency>
 			<groupId>org.apache.poi</groupId>
 			<artifactId>poi-ooxml</artifactId>
-			<version>4.1.0</version>
+			<version>3.9</version>
 		</dependency>
-		
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi-ooxml-schemas</artifactId>
+			<version>3.9</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi-scratchpad</artifactId>
+			<version>3.9</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>ooxml-schemas</artifactId>
+			<version>1.1</version>
+		</dependency>
 
-	
-		
-	<dependency>
-	    <groupId>net.sourceforge.jexcelapi</groupId>
-	    <artifactId>jxl</artifactId>
-	    <version>2.6.12</version>
-	</dependency>		
-    
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>openxml4j</artifactId>
+			<version>1.0-beta</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/javax.validation/validation-api -->
+		<dependency>
+			<groupId>javax.validation</groupId>
+			<artifactId>validation-api</artifactId>
+			<version>2.0.1.Final</version>
+		</dependency>
+		    
  </dependencies>
   
   

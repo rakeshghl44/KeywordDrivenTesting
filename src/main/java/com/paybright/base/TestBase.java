@@ -1,4 +1,4 @@
-package com.dqp.base;
+package com.paybright.base;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -21,7 +21,7 @@ public class TestBase {
 		try {
 			prop = new Properties();
 			
-			FileInputStream fip = new FileInputStream("C:\\Users\\RakeshGohel\\eclipse-workspace\\DQP\\src\\main\\java\\dqp\\qa\\config\\config.properties");
+			FileInputStream fip = new FileInputStream("C:\\Users\\RakeshGohel\\eclipse-workspace\\Pay Bright\\src\\main\\java\\com\\paybright\\config\\config.properties");
 			prop.load(fip);
 			}
 		catch (FileNotFoundException fnfe) {
@@ -36,7 +36,9 @@ public class TestBase {
 			driver.manage().window().maximize();
 			driver.manage().deleteAllCookies();
 			
-			driver.get(prop.getProperty("url"));
+			driver.get(prop.getProperty("googleurl"));
 			Thread.sleep(3000);
+			
+			
 		}	
 }
